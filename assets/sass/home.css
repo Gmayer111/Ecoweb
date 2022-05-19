@@ -1,0 +1,8 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  display: block;
+}
+/*# sourceMappingURL=home.css.map */
