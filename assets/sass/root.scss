@@ -1,0 +1,14 @@
+:root {
+    --blue-text-color: #5396e7;
+    --light-text-color: #d4dcff;
+    --container-padding: 20px;
+    --container-width: calc(100vw - var(--container-padding) * 2);
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: calc(50% - var(--container-width) / 2);
+    padding-right: calc(50% - var(--container-width) / 2);
+
+}
