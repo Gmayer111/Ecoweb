@@ -1,20 +1,29 @@
 <?php 
 
 $title = 'Accueil';
-$style = 'assets/style/home.css'
 
 ?>
 
-<main class="container">
-    <section class="section-title">
-        <h1>Apprenez de nouvelles choses.</h1>
-    </section>
-    <section class="section-paragraph">
-        <p>Sunt anim laborum qui tempor pariatur laboris ea deserunt esse ad. Non ut do ullamco 
-            reprehenderit exercitation nostrud Lorem qui nulla sint. Sunt excepteur velit est irure 
-            consequat labore aliquip laborum laboris dolor eu ex. Labore dolor cillum voluptate amet 
-            irure qui. Ut sunt laboris aliqua cillum duis sint ut nulla amet. Consectetur laborum minim 
-            nulla nulla minim tempor aliqua irure consectetur magna qui sit.</p>
+<main class="homepage">
+    <section class="container">
+        <div>
+            <div class="title">
+                <strong>Apprenez</strong>
+                de<br>nouvelles<br>choses.
+            </div>
+            <p>Améliorez-vous et apprenez de nouvelles choses grâce à 
+            <strong>576 heures</strong> de tutoriels vidéos gratuits.</p>
+            <div>
+                <a href="/">Créer votre compte</a>
+                <a href="/">Voir les tutoriels</a>
+            </div>
+        </div>
+        <div class="home-intro-picture">
+            <button id="three">Cliquez</button>
+        </div>
+
+        
+        
     </section>
 </main>
 
