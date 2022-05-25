@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
     entry: ["./assets/sass/app.scss"],
+    watch: true,
     output: {
         path:path.resolve(__dirname, "./public/assets/js"),
         filename: 'app.js'
