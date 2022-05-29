@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500;600;700;800&display=swap" rel="stylesheet"> 
     <title><?= $title ?? 'Ecoweb accueil' ?></title>
-    <script src="assets/js/app.js"></script>
+    <script src="/dist/default.js"></script>
+    <script src="<?= $style ?>"></script>
 </head>
 <body>
     <nav class="header">
@@ -77,4 +78,5 @@
    <?= $content ?>
     <footer></footer>
 </body>
+<script src="/dist/script.js"></script>
 </html>

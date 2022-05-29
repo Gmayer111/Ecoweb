@@ -1,6 +1,7 @@
 <?php 
 
 $title = 'Accueil';
+$style = '/dist/home.js'
 
 ?>
 

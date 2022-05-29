@@ -7,7 +7,10 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+<<<<<<< HEAD
 /******/ 	"use strict";
+=======
+>>>>>>> db-config
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./assets/js/app.js":
@@ -16,6 +19,7 @@
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+<<<<<<< HEAD
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_app_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/app.css */ \"./assets/sass/app.css\");\n\n//import js from './three.js'\n\n\n\n//# sourceURL=webpack://ecoweb/./assets/js/app.js?");
 
 /***/ }),
@@ -117,6 +121,20 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://ecoweb/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
+=======
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _three_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./three.js */ \"./assets/js/three.js\");\n/* harmony import */ var _three_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_three_js__WEBPACK_IMPORTED_MODULE_0__);\n//import css from '../sass/app.css';\n\n\n\n\n//# sourceURL=webpack://ecoweb/./assets/js/app.js?");
+
+/***/ }),
+
+/***/ "./assets/js/three.js":
+/*!****************************!*\
+  !*** ./assets/js/three.js ***!
+  \****************************/
+/***/ (() => {
+
+eval("\n\ndocument.querySelector('#three').addEventListener('click', () => {\n    alert('hello')\n})\n\nconsole.log('hello');\n\n\n\n\n//# sourceURL=webpack://ecoweb/./assets/js/three.js?");
+>>>>>>> db-config
 
 /***/ })
 
@@ -134,7 +152,11 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
+<<<<<<< HEAD
 /******/ 			id: moduleId,
+=======
+/******/ 			// no module.id needed
+>>>>>>> db-config
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
@@ -187,11 +209,14 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /******/ 		};
 /******/ 	})();
 /******/ 	
+<<<<<<< HEAD
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
 /******/ 	})();
 /******/ 	
+=======
+>>>>>>> db-config
 /************************************************************************/
 /******/ 	
 /******/ 	// startup
