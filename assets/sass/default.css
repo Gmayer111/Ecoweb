@@ -3,6 +3,7 @@
   --light-text-color: #d4dcff;
   --container-padding: 20px;
   --container-width: calc(100vw - var(--container-padding) * 2);
+  --space: 20px;
 }
 
 .container {
@@ -115,5 +116,9 @@ li a:hover {
 
 .icon {
   margin-right: 0.5rem;
+}
+
+main {
+  padding-top: calc(var(--space) * 2);
 }
 /*# sourceMappingURL=default.css.map */

@@ -1,0 +1,36 @@
+body {
+    background-color: #273a84;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.auth-container {
+    background-color: #22244d;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #FFF;
+}
+
+label {
+    color: white;
+}

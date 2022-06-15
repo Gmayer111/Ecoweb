@@ -7,6 +7,7 @@ module.exports = {
     entry: {
       default: './assets/sass/default.css',
       home: './assets/sass/home.css',
+      inscription: './assets/sass/inscription.css',
       script: './assets/js/app.js',
     },
     output: {
